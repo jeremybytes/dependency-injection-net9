@@ -2,7 +2,7 @@
 
 *Level: Introductory / Intermediate*   
 
-Many of our modern frameworks have Dependency Injection (DI) built in. But how do you use that effectively? We need to look at what DI is and why we want to use it. We'll look at the problems caused by tight coupling. Then we'll use some DI patterns such as constructor injection to break that tight coupling. We'll see how loosely-coupled applications are easier to extend and test. With a better understanding of the basic patterns, we'll remove the magic behind DI containers so that we can use the tools appropriately in our code.
+Most developers are introduced to dependency injection (DI) completely backwards: they are given an application that already uses dependency injection and told "Good Luck". But it is really hard to get the benefits from DI if you do not exactly understand what it is and, more importantly, why you want to use it. Let's change that. In this session, you will see problems that are caused by tightly-coupled code. You will see how dependency injection can break that coupling. And you will see how loosely-coupled code is ultimately easier to extend and test. Along the way you will see some DI patterns such as constructor injection, and you will get a better understanding of what a DI container does. With these skills in hand, you can use dependency injection to make your own code easier to extend and test.
 
 * Slides: [SLIDES-DependencyInjection.pdf](./SLIDES-DependencyInjection.pdf)  
 * Completed Code: [/Completed](./Completed/)
